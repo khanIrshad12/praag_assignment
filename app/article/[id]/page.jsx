@@ -36,7 +36,7 @@ export default async function ArticlePage({ params }) {
         </div>
       </header>
       <Sidebar />
-      <main className="lg:pl-64 pt-16">
+      <main className="lg:pl-[10%] pt-16">
         <div className="container py-8">
           <div className="grid lg:grid-cols-[1fr,400px] gap-8">
             <ArticleDetail article={article} />

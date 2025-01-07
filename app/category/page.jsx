@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </header>
       <Sidebar />
-      <main className="lg:pl-[20%] pt-16">
+      <main className="lg:pl-[10%] pt-16">
         <div className="container py-8">
           <div className="grid lg:grid-cols-[1fr,400px] gap-8">
             <ArticleDetail article={newsArticles[0]} />
